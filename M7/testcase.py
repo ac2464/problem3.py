@@ -1,6 +1,5 @@
 import unittest
-import pandas as pd
-from AdvCalc import AdvCalc
+from is601.M7.AdvCalc import AdvCalc
 class Testing(unittest.TestCase):
     def setUp(self):
         self.AdvCalc = AdvCalc()
