@@ -44,9 +44,9 @@ class Testing(unittest.TestCase):
         self.assertEqual(self.AdvCalc.s_d([11, 22, 33, 44]), 12.29837388)
         self.assertEqual(self.AdvCalc.s_d([22, 33, 44, 55]), 12.29837388)
         #home work date 02/19/2022 - ucid - ac2464
-    def test_posd(self):
-        self.assertEqual(self.AdvCalc.posd([11, 2, 33, 4]), 201.66666666666666)
-        self.assertEqual(self.AdvCalc.posd([12, 33, 4, 55, 6]), 472.5)
+    def test_v(self):
+        self.assertEqual(self.AdvCalc.v([11, 2, 33, 4]), 201.66666666666666)
+        self.assertEqual(self.AdvCalc.v([12, 33, 4, 55, 6]), 472.5)
 
 
 if __name__ == '__main__':

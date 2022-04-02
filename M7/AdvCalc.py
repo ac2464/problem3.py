@@ -6,11 +6,7 @@ import scipy.stats as st
 class AdvCalc:
     df = pd.read_csv (r'C:\Users\caakh\Desktop\Unity_Test_Addition.csv')
     mean = df['Value 1'].mean()
-    median = df['Result'].median()
-    mode = df['Value 1'].mode()
     print(mean)
-    print(median)
-    print(mode)
     ans = 0
     def _is_float(self, val):
         try:
@@ -108,10 +104,13 @@ class AdvCalc:
         self.ans = round(psd, 8)
         return self.ans
 #home work date 04/02/2022 - ucid - ac2464
-    def posd(self, num1):
+    def v(self, num1):
         num1 = self._as_number(num1)
         self.ans = statistics.variance(num1)
         return self.ans
+    df = pd.read_csv (r'C:\Users\caakh\Desktop\Unity_Test_Addition.csv')
+    mean = df['Value 2'].ad()
+    print(sqrt)
 if __name__ == '__main__':
     is_running = True
     iSTR = input("Are you ready?")
@@ -180,13 +179,13 @@ if __name__ == '__main__':
                     print(nums)
                     r = calc.s_d(nums)
                     print("R is " + str(r))
-                elif "posd" in iSTR:
-                    nums = iSTR.split("posd")
+                elif "v" in iSTR:
+                    nums = iSTR.split("v")
                     nums = nums[0].split(' ')
                     for j in range(len(nums)):
                         nums[j] = int(nums[j])
                     print(nums)
-                    r = calc.posd(nums)
+                    r = calc.v(nums)
                     print("R is " + str(r))
 
     else:
