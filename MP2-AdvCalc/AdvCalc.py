@@ -6,11 +6,7 @@ import scipy.stats as st
 class AdvCalc:
     df = pd.read_csv (r'C:\Users\caakh\Desktop\Unity_Test_Addition.csv')
     mean = df['Value 1'].mean()
-    median = df['Result'].median()
-    mode = df['Value 1'].mode()
     print(mean)
-    print(median)
-    print(mode)
     ans = 0
     def _is_float(self, val):
         try:
@@ -112,6 +108,9 @@ class AdvCalc:
         num1 = self._as_number(num1)
         self.ans = statistics.variance(num1)
         return self.ans
+    df = pd.read_csv (r'C:\Users\caakh\Desktop\Unity_Test_Addition.csv')
+    mean = df['Value 2'].ad()
+    print(sqrt)
 if __name__ == '__main__':
     is_running = True
     iSTR = input("Are you ready?")
