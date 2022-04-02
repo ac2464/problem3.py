@@ -1,0 +1,21 @@
+
+t1 milk,onion,nutmeg,eggs,dill
+t2 apple,kidneybeans,apple,unicorn
+t3 mayo,wine,bread,butter
+t4 dosa,icream,chapati,water,cooldrink
+t5 cheese,jam,oil,greenapple,peanuts
+t6 springonion,apple,milk,onion,aggs,yogurt	
+t7 milk,onion,dill,yogurt,bread,butter
+t8 unicorn,wine,whisky,oil,water,cooldring
+t9 cooldring,water,whisky,wine
+t10 milk,butter,jam,eggs,bread,oil,water
+t11 nutmeg,onion,cooldrink,dosa,chapati,oil
+t12 milk,water,apple,jam,mayo,cheese
+t13 kidneybeans,springonion,buuter
+t14 mayo,cheese,oil,icecream
+t15 milk,eggs,icecream,cheese,mayo
+t16 apple,onion,dill,springonion
+t17 bread,butter,oil
+t18 wine,water,whisky,jam,egg
+t19 nutmeg,cucumber,greenapple,unicorn
+t20 milk,water,egg
