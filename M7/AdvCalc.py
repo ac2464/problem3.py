@@ -180,13 +180,13 @@ if __name__ == '__main__':
                     print(nums)
                     r = calc.s_d(nums)
                     print("R is " + str(r))
-                elif "posd" in iSTR:
-                    nums = iSTR.split("posd")
+                elif "v" in iSTR:
+                    nums = iSTR.split("v")
                     nums = nums[0].split(' ')
                     for j in range(len(nums)):
                         nums[j] = int(nums[j])
                     print(nums)
-                    r = calc.posd(nums)
+                    r = calc.v(nums)
                     print("R is " + str(r))
 
     else:
